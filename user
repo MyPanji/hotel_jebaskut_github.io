@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user_css">
+    <title>Hotel Jebaskut</title>
+</head>
+<body>
+    <header>
+        <h1>Hotel Jebaskut</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="kamar.php">Kamar</a></li>
+                <li><a href="pelanggan.php">Pelanggan</a></li>
+                <li><a href="pegawai.php">Pegawai</a></li>
+                <li><a href="pemesanan.php">Pemesanan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My Hotel</h2>
+        <p>Experience luxury and comfort during your stay.</p>
+        <a href="#" class="btn">Pesan Sekarang</a>
+    </section>
+
+    <section class="kamar">
+        <article class="kamar">
+            <a href="kamar.php" class="btn">View Details</a>
+            <img src="foto/Biasa.jpg" alt="Kamar">
+            <h3>Kamar Biasa</h3>
+            <p>Spacious and elegantly designed for your comfort.</p>
+        </article>
+        <article class="kamar">
+            <img src="foto/Premium.jpg" alt="Kamar">
+            <h3>Kamar Premium</h3>
+            <p>Spacious and elegantly designed for your comfort.</p>
+        </article>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hotel Jebaskut. Hak cipta dilindungi undang-undang.</p>
+    </footer>
+</body>
+</html>

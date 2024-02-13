@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #000000;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styles for the "Aksi" header */
+th[colspan="2"] {
+    background-color: #f2f2f2;
+}
+
+/* Styles for action links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+/* Styles for the "Tambahkan Data Baru" link */
+a[href="input-kamar.php"] {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    text-align: center;
+}
